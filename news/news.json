@@ -1,8 +1,27 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-04T16:01:34Z",
+  "updatedAt": "2026-10-04T16:39:59Z",
   "channel": "paulDizerGames",
   "posts": [
+    {
+      "id": 12,
+      "date": "2026-10-04T16:39:32Z",
+      "text": "Рандомный факт:\nВ среду у Сани будет  вылазка за бухашками...",
+      "entities": [],
+      "images": [
+        {
+          "url": "news/media/AQADPh5rG-bOEUp9.jpg",
+          "width": 418,
+          "height": 509,
+          "messageId": 12
+        }
+      ],
+      "link": "https://t.me/paulDizerGames/12",
+      "edited": false,
+      "messageIds": [
+        12
+      ]
+    },
     {
       "id": 11,
       "date": "2026-10-04T16:01:15Z",
