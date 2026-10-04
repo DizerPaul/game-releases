@@ -1,8 +1,27 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-04T16:39:59Z",
+  "updatedAt": "2026-10-04T16:46:18Z",
   "channel": "paulDizerGames",
   "posts": [
+    {
+      "id": 13,
+      "date": "2026-10-04T16:45:18Z",
+      "text": "Тест размера изображения, для полного его отображения в лаунчере",
+      "entities": [],
+      "images": [
+        {
+          "url": "news/media/AQADQx5rG-bOEUp-.jpg",
+          "width": 1280,
+          "height": 720,
+          "messageId": 13
+        }
+      ],
+      "link": "https://t.me/paulDizerGames/13",
+      "edited": false,
+      "messageIds": [
+        13
+      ]
+    },
     {
       "id": 12,
       "date": "2026-10-04T16:39:32Z",
