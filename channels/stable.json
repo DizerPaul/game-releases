@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.0.0",
+  "publishedAt": "2026-10-04T13:07:56.8799464+00:00",
+  "minLauncherVersion": "1.0.0",
+  "manifestUrl": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/manifest.json",
+  "manifestSha256": "106c17a731d9faa9a26d42884d80079593b989fc72f2089d888a4c4dbc21b72d",
+  "manifestSize": 108485
+}
