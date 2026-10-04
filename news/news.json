@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-04T14:51:11Z",
+  "updatedAt": "2026-10-04T16:01:34Z",
   "channel": "paulDizerGames",
   "posts": [
+    {
+      "id": 11,
+      "date": "2026-10-04T16:01:15Z",
+      "text": "Добавил врагов на учебный полигон для тестов",
+      "entities": [],
+      "images": [],
+      "link": "https://t.me/paulDizerGames/11",
+      "edited": false,
+      "messageIds": [
+        11
+      ]
+    },
     {
       "id": 10,
       "date": "2026-10-04T14:49:42Z",
