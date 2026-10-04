@@ -14,6 +14,7 @@
 Переменные окружения:
   TELEGRAM_BOT_TOKEN — токен бота (обязательно)
   DELETE_POST        — номер поста, который нужно убрать из ленты (необязательно)
+  CHECK_BOT=1        — проверить, что бот видит канал и является администратором
 """
 
 import json
@@ -235,11 +236,28 @@ def remove_unused_media(feed):
 
 # ---------------------------------------------------------------- Запуск
 
+def check_bot(token):
+    """Самопроверка: какой это бот и видит ли он канал. Посты приходят, только если бот — администратор."""
+    me = api(token, "getMe")
+    print(f"Бот: @{me['username']}")
+    try:
+        member = api(token, "getChatMember", chat_id=f"@{CHANNEL}", user_id=me["id"])
+        status = member.get("status")
+        print(f"Статус в @{CHANNEL}: {status}")
+        if status not in ("administrator", "creator"):
+            print("ВНИМАНИЕ: бот не администратор канала — новые посты к нему не придут.")
+    except TelegramError as e:
+        print(f"ВНИМАНИЕ: бот не видит канал @{CHANNEL} ({e}). Добавьте его администратором.")
+
+
 def main():
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     if not token:
         print("Не задан TELEGRAM_BOT_TOKEN (секрет репозитория)")
         return 1
+
+    if os.environ.get("CHECK_BOT") == "1":
+        check_bot(token)
 
     old = load_json(FEED_PATH, {"posts": []})
     feed = Feed(json.loads(json.dumps(old)))
