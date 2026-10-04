@@ -28,6 +28,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 CHANNEL = "paulDizerGames"
+# Бот, созданный только для новостей. Скрипт откажется работать с токеном другого бота:
+# чужой бот (например, другой ваш бот на aiogram) потерял бы свои сообщения из общей очереди getUpdates.
+BOT_USERNAME = "DizerGamesNewsBot"
 MAX_POSTS = 50                      # сколько последних постов держать в ленте
 MAX_IMAGE_BYTES = 10 * 1024 * 1024  # больше не скачиваем (Bot API отдаёт файлы до 20 МБ)
 PREFERRED_IMAGE_WIDTH = 1280        # из нескольких размеров фото берём ближайший к этому
@@ -236,10 +239,8 @@ def remove_unused_media(feed):
 
 # ---------------------------------------------------------------- Запуск
 
-def check_bot(token):
-    """Самопроверка: какой это бот и видит ли он канал. Посты приходят, только если бот — администратор."""
-    me = api(token, "getMe")
-    print(f"Бот: @{me['username']}")
+def check_bot(token, me):
+    """Самопроверка: видит ли бот канал. Посты приходят, только если бот — администратор."""
     try:
         member = api(token, "getChatMember", chat_id=f"@{CHANNEL}", user_id=me["id"])
         status = member.get("status")
@@ -256,8 +257,14 @@ def main():
         print("Не задан TELEGRAM_BOT_TOKEN (секрет репозитория)")
         return 1
 
+    me = api(token, "getMe")
+    print(f"Бот: @{me['username']}")
+    if me["username"].lower() != BOT_USERNAME.lower():
+        print(f"ОШИБКА: в секрете TELEGRAM_BOT_TOKEN токен бота @{me['username']}, а нужен @{BOT_USERNAME}.")
+        print("Ничего не делаю, чтобы не забрать чужие сообщения. Обновите секрет: gh secret set TELEGRAM_BOT_TOKEN")
+        return 1
     if os.environ.get("CHECK_BOT") == "1":
-        check_bot(token)
+        check_bot(token, me)
 
     old = load_json(FEED_PATH, {"posts": []})
     feed = Feed(json.loads(json.dumps(old)))
