@@ -20,6 +20,8 @@
              font-weight:700; font-size:22px; clip-path: polygon(12px 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%,0 12px); }
   a.button:hover { background:#EF7738; }
   a.link { color:var(--accent); }
+  .meta { margin-top:10px; font-size:14px; }
+  .note { font-size:13px; margin-top:28px; }
 </style>
 </head>
 <body>
@@ -27,8 +29,24 @@
   <h1>GAME</h1>
   <div class="bar"></div>
   <p class="tagline">Выживи. Собери. Эвакуируйся.</p>
-  <p>Здесь будет ссылка на установщик лаунчера. Новости и анонсы — в нашем Telegram-канале.</p>
-  <a class="button" href="https://t.me/paulDizerGames">Telegram-канал</a>
+  <p>Скачайте лаунчер: он установит игру, будет обновлять её и покажет новости.<br>
+     Windows 10/11, права администратора не нужны.</p>
+  <a class="button" id="download" href="https://github.com/DizerPaul/game-releases/releases">Скачать лаунчер</a>
+  <p id="meta" class="meta"></p>
+  <p class="note">Windows может показать окно «Система Windows защитила ваш компьютер» — это из-за того, что у установщика
+     пока нет платной цифровой подписи. Нажмите «Подробнее» → «Выполнить в любом случае».</p>
+  <p><a class="link" href="https://t.me/paulDizerGames">Новости в Telegram-канале</a></p>
+  <script>
+    // Ссылка на последний установщик берётся из launcher/stable.json — его обновляет команда publish-launcher
+    fetch("launcher/stable.json", { cache: "no-store" })
+      .then(r => r.ok ? r.json() : null)
+      .then(info => {
+        if (!info || !info.setupUrl || !info.setupUrl.startsWith("https://")) return;
+        document.getElementById("download").href = info.setupUrl;
+        document.getElementById("meta").textContent = "Версия " + info.version;
+      })
+      .catch(() => {});
+  </script>
 </main>
 </body>
 </html>
