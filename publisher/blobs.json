@@ -467,6 +467,12 @@
     "sha256": "78649cfe43cc8cc8733062fd24cd4f952a11c51c7b600f2cc879bd76c42be6c6",
     "compression": "brotli"
   },
+  "64ea9b7db3e5a0784fa1942dda4c7bb47b913bc72e302296fcb2335e2729d773": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.1-beta.1/64ea9b7db3e5a0784fa1942dda4c7bb47b913bc72e302296fcb2335e2729d773.bin",
+    "size": 107,
+    "sha256": "64ea9b7db3e5a0784fa1942dda4c7bb47b913bc72e302296fcb2335e2729d773",
+    "compression": "none"
+  },
   "65a7a147bb3489cc595db21767b95266bbf404ca49fa91fc48173d17e1c952c3": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/65a7a147bb3489cc595db21767b95266bbf404ca49fa91fc48173d17e1c952c3.br",
     "size": 14451,
