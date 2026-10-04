@@ -1,6 +1,26 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-04T13:28:08Z",
+  "updatedAt": "2026-10-04T13:57:32Z",
   "channel": "paulDizerGames",
-  "posts": []
+  "posts": [
+    {
+      "id": 7,
+      "date": "2026-10-04T13:57:28Z",
+      "text": "Тест Бота",
+      "entities": [],
+      "images": [
+        {
+          "url": "news/media/AQAD5RxrG-bOEUp-.jpg",
+          "width": 1280,
+          "height": 719,
+          "messageId": 7
+        }
+      ],
+      "link": "https://t.me/paulDizerGames/7",
+      "edited": false,
+      "messageIds": [
+        7
+      ]
+    }
+  ]
 }
