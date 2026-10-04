@@ -242,6 +242,17 @@ def remove_unused_media(feed):
 def check_bot(token, me):
     """Самопроверка: видит ли бот канал. Посты приходят, только если бот — администратор."""
     try:
+        chat = api(token, "getChat", chat_id=f"@{CHANNEL}")
+        print(f"Канал: «{chat.get('title')}», тип {chat.get('type')}, id {chat.get('id')}")
+        admins = api(token, "getChatAdministrators", chat_id=chat["id"])
+        names = [a["user"].get("username") or a["user"].get("first_name") for a in admins]
+        print(f"Администраторы, видимые боту: {', '.join(map(str, names))}")
+        if any(a["user"]["id"] == me["id"] for a in admins):
+            print("Бот — администратор канала: всё в порядке")
+            return
+    except TelegramError as e:
+        print(f"  getChat/getChatAdministrators: {e}")
+    try:
         member = api(token, "getChatMember", chat_id=f"@{CHANNEL}", user_id=me["id"])
         status = member.get("status")
         print(f"Статус в @{CHANNEL}: {status}")
