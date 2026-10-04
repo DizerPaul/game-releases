@@ -4,7 +4,8 @@ name: Новости из Telegram
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # Нецелые минуты: на «:00» и «:15» GitHub под нагрузкой чаще пропускает запуски
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
     inputs:
       delete_post:
