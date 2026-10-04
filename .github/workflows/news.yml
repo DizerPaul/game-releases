@@ -1,0 +1,55 @@
+# Каждые 15 минут забирает новые посты из Telegram-канала и обновляет news/news.json.
+# Токен бота хранится в секрете TELEGRAM_BOT_TOKEN (Settings → Secrets and variables → Actions).
+name: Новости из Telegram
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      delete_post:
+        description: "Номер поста, который нужно убрать из ленты (из ссылки t.me/paulDizerGames/НОМЕР)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+# Два запуска одновременно не нужны: второй подождёт первый
+concurrency:
+  group: news
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Забрать посты
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          DELETE_POST: ${{ inputs.delete_post }}
+        run: python3 scripts/fetch_news.py
+
+      - name: Не дать GitHub отключить расписание
+        # GitHub выключает расписание в репозитории, где 60 дней не было коммитов
+        run: |
+          last=$(git log -1 --format=%ct)
+          if [ $(( $(date +%s) - last )) -gt $(( 50 * 24 * 3600 )) ]; then
+            date -u +%Y-%m-%dT%H:%M:%SZ > news/heartbeat.txt
+          fi
+
+      - name: Сохранить изменения
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news
+          if git diff --cached --quiet; then
+            echo "Изменений нет"
+            exit 0
+          fi
+          git commit -m "Новости: обновление ленты"
+          git pull --rebase origin main
+          git push origin HEAD:main
