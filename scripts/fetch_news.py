@@ -4,7 +4,7 @@
 
 Как это работает:
   • бот — администратор канала, Telegram присылает ему каждый пост как событие channel_post;
-  • события хранятся у Telegram 24 часа — скрипт запускается раз в 15 минут (GitHub Actions) и забирает их;
+  • события хранятся у Telegram 24 часа — скрипт запускается каждые 5 минут (GitHub Actions) и забирает их;
   • посты складываются в news/news.json, картинки — в news/media/;
   • GitHub Pages раздаёт их лаунчеру по адресу https://launcher.dizermoney.ru/news/news.json.
 
