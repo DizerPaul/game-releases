@@ -1,12 +1,36 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-04T13:57:32Z",
+  "updatedAt": "2026-10-04T14:33:50Z",
   "channel": "paulDizerGames",
   "posts": [
     {
+      "id": 9,
+      "date": "2026-10-04T14:26:10Z",
+      "text": "Обновление лаунчера до 1.0.1 версии.",
+      "entities": [],
+      "images": [],
+      "link": "https://t.me/paulDizerGames/9",
+      "edited": false,
+      "messageIds": [
+        9
+      ]
+    },
+    {
+      "id": 8,
+      "date": "2026-10-04T14:20:12Z",
+      "text": "Теперь игру можно скачать и обновить через лаунчер!",
+      "entities": [],
+      "images": [],
+      "link": "https://t.me/paulDizerGames/8",
+      "edited": false,
+      "messageIds": [
+        8
+      ]
+    },
+    {
       "id": 7,
       "date": "2026-10-04T13:57:28Z",
-      "text": "Тест Бота",
+      "text": "Тест Бота. Должна появиться картинка в Лаунчере и этот текст...",
       "entities": [],
       "images": [
         {
@@ -17,7 +41,7 @@
         }
       ],
       "link": "https://t.me/paulDizerGames/7",
-      "edited": false,
+      "edited": true,
       "messageIds": [
         7
       ]
