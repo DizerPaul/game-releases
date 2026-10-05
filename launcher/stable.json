@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "1.0.2",
-  "publishedAt": "2026-10-04T14:47:55.8611887+00:00",
-  "url": "https://github.com/DizerPaul/game-releases/releases/download/launcher-1.0.2/Launcher.exe",
-  "size": 75569626,
-  "sha256": "14054818c373602b7877a77e3a772365ea58bffd128eda7f699e6408f8137ed7",
-  "setupUrl": "https://github.com/DizerPaul/game-releases/releases/download/launcher-1.0.2/GameSetup.exe"
+  "version": "1.0.3",
+  "publishedAt": "2026-10-05T16:04:24.3657284+00:00",
+  "url": "https://github.com/DizerPaul/game-releases/releases/download/launcher-1.0.3/Launcher.exe",
+  "size": 75570412,
+  "sha256": "dd6999170ae8074f6d6382bf7de5dfbf1edbe0a53ed9768bc2f7b9e9500cbd17",
+  "setupUrl": "https://github.com/DizerPaul/game-releases/releases/download/launcher-1.0.3/GameSetup.exe"
 }
