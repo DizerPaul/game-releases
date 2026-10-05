@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-05T15:47:23Z",
+  "updatedAt": "2026-10-05T16:09:05Z",
   "channel": "paulDizerGames",
   "posts": [
+    {
+      "id": 15,
+      "date": "2026-10-05T16:06:21Z",
+      "text": "Обновление лаунчера до 1.0.3 версии, исправлены незначительные баги.",
+      "entities": [],
+      "images": [],
+      "link": "https://t.me/paulDizerGames/15",
+      "edited": false,
+      "messageIds": [
+        15
+      ]
+    },
     {
       "id": 14,
       "date": "2026-10-05T15:46:42Z",
