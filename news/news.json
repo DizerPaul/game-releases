@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-04T16:46:18Z",
+  "updatedAt": "2026-10-05T15:47:23Z",
   "channel": "paulDizerGames",
   "posts": [
+    {
+      "id": 14,
+      "date": "2026-10-05T15:46:42Z",
+      "text": "Исправление багов ИИ противника в поиске пути до укрытия.",
+      "entities": [],
+      "images": [],
+      "link": "https://t.me/paulDizerGames/14",
+      "edited": false,
+      "messageIds": [
+        14
+      ]
+    },
     {
       "id": 13,
       "date": "2026-10-04T16:45:18Z",
