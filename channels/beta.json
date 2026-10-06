@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "beta",
-  "version": "1.1.0-beta.1",
-  "publishedAt": "2026-10-05T15:44:01.4837259+00:00",
+  "version": "0.8.1",
+  "publishedAt": "2026-10-06T11:38:01.1613862+00:00",
   "minLauncherVersion": "1.0.0",
-  "manifestUrl": "https://github.com/DizerPaul/game-releases/releases/download/game-1.1.0-beta.1/manifest.json",
-  "manifestSha256": "f01e5ed0d520317f9bbc436f09434e172e561b78da0c2b040a5f596cfd9b997f",
-  "manifestSize": 19786
+  "manifestUrl": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.1/manifest.json",
+  "manifestSha256": "135b24035542844e06f37ba19b10b7e429339d65b118e0a16e03de604dc9b628",
+  "manifestSize": 19659
 }
