@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-06T11:43:24Z",
+  "updatedAt": "2026-10-07T15:18:43Z",
   "channel": "paulDizerGames",
   "posts": [
+    {
+      "id": 17,
+      "date": "2026-10-07T15:18:05Z",
+      "text": "Просто дохера изменений...которые ни кто не сможет протестировать...",
+      "entities": [],
+      "images": [],
+      "link": "https://t.me/paulDizerGames/17",
+      "edited": false,
+      "messageIds": [
+        17
+      ]
+    },
     {
       "id": 16,
       "date": "2026-10-06T11:42:56Z",
