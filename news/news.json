@@ -1,8 +1,27 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-11T08:25:06Z",
+  "updatedAt": "2026-10-11T14:12:48Z",
   "channel": "paulDizerGames",
   "posts": [
+    {
+      "id": 21,
+      "date": "2026-10-11T14:11:07Z",
+      "text": "Обновлённый военный городок доступен для загрузки",
+      "entities": [],
+      "images": [
+        {
+          "url": "news/media/AQADYSNrG5LQYUp-.jpg",
+          "width": 1280,
+          "height": 560,
+          "messageId": 21
+        }
+      ],
+      "link": "https://t.me/paulDizerGames/21",
+      "edited": true,
+      "messageIds": [
+        21
+      ]
+    },
     {
       "id": 20,
       "date": "2026-10-11T08:24:35Z",
