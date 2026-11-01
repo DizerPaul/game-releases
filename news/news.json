@@ -1,8 +1,27 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-13T13:38:58Z",
+  "updatedAt": "2026-11-01T08:14:34Z",
   "channel": "paulDizerGames",
   "posts": [
+    {
+      "id": 23,
+      "date": "2026-11-01T07:48:48Z",
+      "text": "",
+      "entities": [],
+      "images": [
+        {
+          "url": "news/media/AQADciBrGyNFOEt-.jpg",
+          "width": 1280,
+          "height": 560,
+          "messageId": 23
+        }
+      ],
+      "link": "https://t.me/paulDizerGames/23",
+      "edited": false,
+      "messageIds": [
+        23
+      ]
+    },
     {
       "id": 22,
       "date": "2026-10-13T13:37:27Z",
