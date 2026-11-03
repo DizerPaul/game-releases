@@ -1,8 +1,42 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-03T11:44:54Z",
+  "updatedAt": "2026-11-03T13:56:07Z",
   "channel": "paulDizerGames",
   "posts": [
+    {
+      "id": 27,
+      "date": "2026-11-03T13:55:36Z",
+      "text": "",
+      "entities": [],
+      "images": [
+        {
+          "url": "news/media/AQAD0iBrG3aXUUt-.jpg",
+          "width": 1280,
+          "height": 720,
+          "messageId": 27
+        },
+        {
+          "url": "news/media/AQAD1CBrG3aXUUt-.jpg",
+          "width": 1280,
+          "height": 720,
+          "messageId": 28
+        },
+        {
+          "url": "news/media/AQAD1SBrG3aXUUt-.jpg",
+          "width": 1280,
+          "height": 720,
+          "messageId": 29
+        }
+      ],
+      "link": "https://t.me/paulDizerGames/27",
+      "edited": false,
+      "messageIds": [
+        27,
+        28,
+        29
+      ],
+      "mediaGroupId": "14349713091105170"
+    },
     {
       "id": 26,
       "date": "2026-11-03T11:44:31Z",
