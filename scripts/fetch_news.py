@@ -32,8 +32,9 @@ CHANNEL = "paulDizerGames"
 # чужой бот (например, другой ваш бот на aiogram) потерял бы свои сообщения из общей очереди getUpdates.
 BOT_USERNAME = "DizerGamesNewsBot"
 MAX_POSTS = 50                      # сколько последних постов держать в ленте
-MAX_IMAGE_BYTES = 10 * 1024 * 1024  # больше не скачиваем (Bot API отдаёт файлы до 20 МБ)
-PREFERRED_IMAGE_WIDTH = 1280        # из нескольких размеров фото берём ближайший к этому
+MAX_IMAGE_BYTES = 20 * 1024 * 1024  # больше Bot API не отдаёт
+# Картинки, присланные файлом (без сжатия Telegram), — только форматы, которые лаунчер умеет показать
+IMAGE_DOCUMENT_TYPES = {"image/jpeg": ".jpg", "image/png": ".png", "image/gif": ".gif", "image/bmp": ".bmp"}
 ENTITY_TYPES = {"bold", "italic", "underline", "strikethrough", "code", "pre",
                 "text_link", "url", "mention", "hashtag", "spoiler", "blockquote"}
 
@@ -118,19 +119,23 @@ def iso(unix_time):
 
 
 def pick_photo(sizes):
-    """Из вариантов размера фото выбираем подходящий для ленты: не больше 1280 по ширине, иначе самый маленький из крупных."""
-    fitting = [s for s in sizes if s.get("width", 0) <= PREFERRED_IMAGE_WIDTH]
-    return max(fitting, key=lambda s: s["width"]) if fitting else min(sizes, key=lambda s: s["width"])
+    """Из вариантов размера фото берём самый большой: в ленте лаунчер его уменьшит, а по клику покажет целиком."""
+    fitting = [s for s in sizes if s.get("file_size", 0) <= MAX_IMAGE_BYTES] or sizes
+    return max(fitting, key=lambda s: s.get("width", 0) * s.get("height", 0))
 
 
 def message_image(message):
-    """Картинка сообщения: фото или превью видео/гифки/документа. None, если картинки нет."""
+    """Картинка сообщения и расширение файла: фото, картинка-файл или превью видео/гифки/документа. None, если картинки нет."""
     if message.get("photo"):
-        return pick_photo(message["photo"])
+        return pick_photo(message["photo"]), ".jpg"
+    document = message.get("document") or {}
+    ext = IMAGE_DOCUMENT_TYPES.get(document.get("mime_type"))
+    if ext and document.get("file_size", 0) <= MAX_IMAGE_BYTES:
+        return document, ext
     for kind in ("video", "animation", "document"):
         thumb = (message.get(kind) or {}).get("thumbnail")
         if thumb:
-            return thumb
+            return thumb, ".jpg"
     return None
 
 
@@ -168,7 +173,7 @@ class Feed:
     def apply(self, token, message, edited):
         text = message.get("text") or message.get("caption") or ""
         entities = clean_entities(message.get("entities") or message.get("caption_entities"))
-        image = message_image(message)
+        image, ext = message_image(message) or (None, None)
 
         post = self.find(message)
         if post is None:
@@ -204,7 +209,7 @@ class Feed:
             post["edited"] = True
 
         if image:
-            name = f"{image['file_unique_id']}.jpg"
+            name = f"{image['file_unique_id']}{ext}"
             post["images"] = [i for i in post["images"] if i.get("messageId") != message["message_id"]]
             if (MEDIA_DIR / name).exists() or download_file(token, image["file_id"], MEDIA_DIR / name):
                 post["images"].append({
