@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "1.1.1",
-  "publishedAt": "2026-11-03T07:01:01.3924701+00:00",
-  "url": "https://github.com/DizerPaul/game-releases/releases/download/launcher-1.1.1/Launcher.exe",
-  "size": 76732266,
-  "sha256": "a26b5b91b7d79b48d1efb4d8d2243a3cf1b9403118c7ca5e1107b5120cacfe1b",
-  "setupUrl": "https://github.com/DizerPaul/game-releases/releases/download/launcher-1.1.1/PapocSetup.exe"
+  "version": "1.1.2",
+  "publishedAt": "2026-11-03T07:17:10.7628521+00:00",
+  "url": "https://github.com/DizerPaul/game-releases/releases/download/launcher-1.1.2/Launcher.exe",
+  "size": 76737391,
+  "sha256": "f029d1c74ed620cbf8bd1e2286c0d8fede5f303198fec21d50c5634751a549d1",
+  "setupUrl": "https://github.com/DizerPaul/game-releases/releases/download/launcher-1.1.2/PapocSetup.exe"
 }
