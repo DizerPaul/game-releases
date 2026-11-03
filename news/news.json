@@ -1,8 +1,27 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-03T07:03:07Z",
+  "updatedAt": "2026-11-03T11:44:54Z",
   "channel": "paulDizerGames",
   "posts": [
+    {
+      "id": 26,
+      "date": "2026-11-03T11:44:31Z",
+      "text": "Тест Сектора 17",
+      "entities": [],
+      "images": [
+        {
+          "url": "news/media/AQADDyBrG3aXUUt-.jpg",
+          "width": 1280,
+          "height": 560,
+          "messageId": 26
+        }
+      ],
+      "link": "https://t.me/paulDizerGames/26",
+      "edited": false,
+      "messageIds": [
+        26
+      ]
+    },
     {
       "id": 25,
       "date": "2026-11-03T07:02:37Z",
