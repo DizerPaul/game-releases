@@ -1,8 +1,27 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-03T13:56:07Z",
+  "updatedAt": "2026-11-03T15:33:33Z",
   "channel": "paulDizerGames",
   "posts": [
+    {
+      "id": 30,
+      "date": "2026-11-03T15:31:54Z",
+      "text": "Обновление лаунчера\n- Добавлена авторизация\n- Добавлены лидерборды",
+      "entities": [],
+      "images": [
+        {
+          "url": "news/media/AQADbSFrG3aXUUt-.jpg",
+          "width": 1280,
+          "height": 560,
+          "messageId": 30
+        }
+      ],
+      "link": "https://t.me/paulDizerGames/30",
+      "edited": false,
+      "messageIds": [
+        30
+      ]
+    },
     {
       "id": 27,
       "date": "2026-11-03T13:55:36Z",
