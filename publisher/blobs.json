@@ -47,6 +47,12 @@
     "sha256": "aa0c7753205d0adb5b7ea2506706bb7ed0dcb78975aa9ac17c283db130dcc020",
     "compression": "brotli"
   },
+  "0430aa21004e4f11a8183ca0c465e0074cef4b3032c8a5f8f4b73138a57f3726": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/0430aa21004e4f11a8183ca0c465e0074cef4b3032c8a5f8f4b73138a57f3726.br",
+    "size": 586531,
+    "sha256": "d21a2091585c4580a81d89646303cc508170ddf7edc0831794f3062fea2f44d9",
+    "compression": "brotli"
+  },
   "046a83f07ded5e44891cb23645e4cc6595ae6769e0ef20ea8fd22e4e5a2489b6": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/046a83f07ded5e44891cb23645e4cc6595ae6769e0ef20ea8fd22e4e5a2489b6.br",
     "size": 183900257,
@@ -251,6 +257,12 @@
     "sha256": "3be40bc55a4bade2c05822276964f4b2e2be6ee160682072678f2a4ce2f9efc8",
     "compression": "brotli"
   },
+  "11a6a11c9644528b49c1373d79d4d621c1ad94897dfae610498464678116a4b8": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/11a6a11c9644528b49c1373d79d4d621c1ad94897dfae610498464678116a4b8.br",
+    "size": 184044248,
+    "sha256": "1a5b8e6913fabc981ba78a7958324d11a00708d82bedb08b60cf8baff84ba2af",
+    "compression": "brotli"
+  },
   "12b4336159828a2f5234aa9cc1c5ba8e79e4947e7dfb6f463c78f4a16ceff306": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.1.0-beta.1/12b4336159828a2f5234aa9cc1c5ba8e79e4947e7dfb6f463c78f4a16ceff306.br",
     "size": 4494884,
@@ -333,6 +345,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/1a497ff072549bdfd459a066ea06b9e1f324d1aa6338073572e735fe9fdd3486.br",
     "size": 118,
     "sha256": "51d11c2e695aa01589a4e80463aba993da342571e09fd890fc353a2590fcc2f7",
+    "compression": "brotli"
+  },
+  "1b2830d29da8299277d66361136d3bfc65c40c9bff7212b7fc030e5138376b24": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/1b2830d29da8299277d66361136d3bfc65c40c9bff7212b7fc030e5138376b24.br",
+    "size": 4946430,
+    "sha256": "e840ad4244f2fb85377bfa03b9fe88db4d739ebdca9a854eb43cb0c664014a37",
     "compression": "brotli"
   },
   "1b82b85c52d524f243c52d83b80b51e64011dc6fc37350b4a2e1a5ab642c440d": {
@@ -479,6 +497,12 @@
     "sha256": "48c72f23bfc85e287f3a6e0cfc0454019da8759e526c36fabb31d8d950f81b8e",
     "compression": "brotli"
   },
+  "23ab351db3c4aad8882111e422b8e0b54fcb1e129d0b6a42dd5f6cb6bb245472": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/23ab351db3c4aad8882111e422b8e0b54fcb1e129d0b6a42dd5f6cb6bb245472.br",
+    "size": 1162809,
+    "sha256": "5f5343029dfa69860ec8f0d13b21dec879b8fc931dd6b4ecd7de38ba431e3ff1",
+    "compression": "brotli"
+  },
   "242f0ebb5a0ad09d3488c769a74a99b96eeb88fa653500aa67bd7e1ab928cbd8": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.7/242f0ebb5a0ad09d3488c769a74a99b96eeb88fa653500aa67bd7e1ab928cbd8.br",
     "size": 225504,
@@ -521,10 +545,22 @@
     "sha256": "9b7cfc6c79abe66ee619b79a5e71cf2f9b26feadbbe21b954d3fb3aa3c0c0d65",
     "compression": "brotli"
   },
+  "25758dcf4facba91551bd9c53630d0ffa83b36b38bffabeb01c7b9777029d934": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/25758dcf4facba91551bd9c53630d0ffa83b36b38bffabeb01c7b9777029d934.br",
+    "size": 17426638,
+    "sha256": "e049254aaea550f4320a8b919882bafeb6da3c891059a79f58660d9e773e0b6c",
+    "compression": "brotli"
+  },
   "257c17a48673226dc6744139582d432fe1e1adbfc1fd6cd7c2fa2b59d8ac7639": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/257c17a48673226dc6744139582d432fe1e1adbfc1fd6cd7c2fa2b59d8ac7639.br",
     "size": 9051,
     "sha256": "318b34101cafbea4d9967e18d7a698062326cb6494a613e127f2ac1c9013eeb6",
+    "compression": "brotli"
+  },
+  "25d3a78e6abce78444f9a0386678f22f73f44ed3fe6bf4fe8c899a87e0c23723": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/25d3a78e6abce78444f9a0386678f22f73f44ed3fe6bf4fe8c899a87e0c23723.br",
+    "size": 54035457,
+    "sha256": "2e774c4d72c6330289fbe1f415159ae3a475b7cda2d998b4ffc84f8ca9b109ef",
     "compression": "brotli"
   },
   "25ff95e330261130c2004527e2ef9a6e8776fda7f8f71748d242e4b4e675de94": {
@@ -573,6 +609,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.7/27a987d0057a27bb9a143837e92739d8181917a9bd21fef24d89b1e8ae115048.br",
     "size": 338876,
     "sha256": "0cc7457b7a013ff6fb543bc2b8a20e305e2e91f3db6387dac2391b6e23c6aed8",
+    "compression": "brotli"
+  },
+  "27aed9bc577be63e169c84df0b5e44343ee6426face2ab936f09cff1c49c75f4": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/27aed9bc577be63e169c84df0b5e44343ee6426face2ab936f09cff1c49c75f4.br",
+    "size": 422,
+    "sha256": "04571ff94e4f5814341b3c3c46fe29d0c69481fb9c84e55ab74d54c6a93eafc7",
     "compression": "brotli"
   },
   "2872c2154799deb962e1dcdb30b84897c302ca71020073fe3d4fb246b68637d9": {
@@ -1031,6 +1073,18 @@
     "sha256": "9cc511c68c9dffaa78b34eca23516ee7c2db17f28f3c53da87edc299d1678b5e",
     "compression": "brotli"
   },
+  "4452d44b6276745141e3e174927e0df13238c8c5023be3660f4dc932efc1cf02": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/4452d44b6276745141e3e174927e0df13238c8c5023be3660f4dc932efc1cf02.br",
+    "size": 1782712,
+    "sha256": "db501af16c0572fd034ad051e93b45ba5e0f6455bfbac8997d3710162020137e",
+    "compression": "brotli"
+  },
+  "446ed04a6d730acbd34e3315fd8f024a03bb4a85a667fe2f1f21c4655327932d": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/446ed04a6d730acbd34e3315fd8f024a03bb4a85a667fe2f1f21c4655327932d.br",
+    "size": 736,
+    "sha256": "0c04715b2986fe2280caf2c73dead56dc65c976b4635a0e1996fc70667250b46",
+    "compression": "brotli"
+  },
   "447b05b48946f885587eafba52e24c549e7131aeaeaae674b8c3e363671e2bea": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.1/447b05b48946f885587eafba52e24c549e7131aeaeaae674b8c3e363671e2bea.br",
     "size": 626585,
@@ -1085,6 +1139,12 @@
     "sha256": "37d9bf72a72d323995108eed85c7815c723a8f7615de474d2ba561da2adbc91a",
     "compression": "brotli"
   },
+  "494ac25f6e1df479853ffb1f56e74504d58acce69bb09be1ff072d6377972cc8": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/494ac25f6e1df479853ffb1f56e74504d58acce69bb09be1ff072d6377972cc8.br",
+    "size": 3584928,
+    "sha256": "3fce703ebb64e3e3e85479567e54438c01ff5aaa8f5e2936af1739a7995279b6",
+    "compression": "brotli"
+  },
   "49985f2bb20bc90629218a9af06da588b6b37141cd783d7100542fc8a7f5214c": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.2/49985f2bb20bc90629218a9af06da588b6b37141cd783d7100542fc8a7f5214c.br",
     "size": 100488436,
@@ -1101,6 +1161,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/49c6160f9d54af4270a3b4e997fc4a8301f79b9e2070118fa46ddbcbbc44f9a2.br",
     "size": 561,
     "sha256": "8ef9e9f9abe67018d2fa0bb839d2a2e2c9f7059dff885bf2e5e3fd13cc7a60db",
+    "compression": "brotli"
+  },
+  "4a29cd2d1403947db77ddceee01c04621ad1299208bae384a552ed2a62cfe001": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/4a29cd2d1403947db77ddceee01c04621ad1299208bae384a552ed2a62cfe001.br",
+    "size": 65319,
+    "sha256": "74920ebbd53c7da79fedd1aa04ef6aaa7c31b4553bdc62965b8195b7a06666bc",
     "compression": "brotli"
   },
   "4a4c68c68ee0b09a6cb9dffeb2ff96c6131972c2fa53876d0a2baf57d446e066": {
@@ -1203,6 +1269,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/4e4fe4ee0e60b98e81e598cf622b9bff69340ac9e936d607bd800498333161fe.br",
     "size": 18103,
     "sha256": "458f47ceb1250eb7ca732d9a5fc8846084cc920bc0f471a948927d07875c0cb2",
+    "compression": "brotli"
+  },
+  "4e5092d701b8954826edddf759d7cf9ec4e9c6d945f101d0b3b7a048b9b8cea7": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/4e5092d701b8954826edddf759d7cf9ec4e9c6d945f101d0b3b7a048b9b8cea7.br",
+    "size": 85881616,
+    "sha256": "2593147c7cbbe700891091ca5a435f1bb2dd132f7ea81b7dbb00a6c403cf1196",
     "compression": "brotli"
   },
   "4e87157e22d3722eb42c51bf2058c1cae5eb33fe71ce2cdba2de69da4471d2e1": {
@@ -1349,6 +1421,12 @@
     "sha256": "de21f47f38ca4fd8168e057b79b978c48a0bf6c20eaa1f0121c3229ad4474eb2",
     "compression": "brotli"
   },
+  "56cee51576ae955ddaeb400fcb9d7f12e3cec8edf6e1cae1a88757eb6e5262b9": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/56cee51576ae955ddaeb400fcb9d7f12e3cec8edf6e1cae1a88757eb6e5262b9.br",
+    "size": 153098,
+    "sha256": "45ac41aed8e16372da562d83b8ba535af08107b0ac57fb4c5c223d44a27ca2ea",
+    "compression": "brotli"
+  },
   "57163a1333e6eaebd47d314d74462fbf004b1df41bfc1f7543002477af7ba19b": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.6/57163a1333e6eaebd47d314d74462fbf004b1df41bfc1f7543002477af7ba19b.br",
     "size": 311619,
@@ -1439,6 +1517,18 @@
     "sha256": "6dba7ee3234149d7f9e638148483127b6ad82067a85c711de67c9ed444ecd99b",
     "compression": "brotli"
   },
+  "5b9e63950e2bfa1bce4f55f02598c5ba229e7f27b5b9fcd96b800e9d8d0a8ba1": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/5b9e63950e2bfa1bce4f55f02598c5ba229e7f27b5b9fcd96b800e9d8d0a8ba1.br",
+    "size": 19361073,
+    "sha256": "578bde30516ea2f17433275106bd23509d0d8ee0a83d0de6e5a3752d24f28ae8",
+    "compression": "brotli"
+  },
+  "5c5a5c194d6253bed1acde531f44403a6c39d815a626cccbd120ad2fee46fce1": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/5c5a5c194d6253bed1acde531f44403a6c39d815a626cccbd120ad2fee46fce1.br",
+    "size": 266127,
+    "sha256": "456dd23aa134cd1ee46aa5077638c7e25fb46c3e667d6e6be432ba9fb669e79e",
+    "compression": "brotli"
+  },
   "5cad3ac3825a90068dbffe96f08bb7b12cccccea053444d9dcab713c17b490d6": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.9/5cad3ac3825a90068dbffe96f08bb7b12cccccea053444d9dcab713c17b490d6.br",
     "size": 62732,
@@ -1467,6 +1557,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.9/606de37147c567ae6419cbcd99a9c9cabb03f538188d70e1f5547a8e70f60d4d.br",
     "size": 346219,
     "sha256": "020955e46e63cfb091011de30f0654e3fb7e95c3291c580911d88cb708199458",
+    "compression": "brotli"
+  },
+  "60e7683007e6107a239c19c581a87aeaf072a38ca6688f5db859dc649c0591f5": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/60e7683007e6107a239c19c581a87aeaf072a38ca6688f5db859dc649c0591f5.br",
+    "size": 117,
+    "sha256": "86ebdd0e50c173cf91e6474b382e581c6d5f2eff59cf46515510e3b88ec232a5",
     "compression": "brotli"
   },
   "61a9f1384047050dfe6a453a6d57fbe301d74aa864105ee162165d5f43d9f80d": {
@@ -1691,6 +1787,12 @@
     "sha256": "1971500b8b4a4fd8dec9ac8af476b32e43800effa23e19e0f09ecabc2f2174f3",
     "compression": "brotli"
   },
+  "6f92758e9138534520a0b82f8e142143570991fcb23aef3f3eaaa3a4c4f6cd95": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/6f92758e9138534520a0b82f8e142143570991fcb23aef3f3eaaa3a4c4f6cd95.br",
+    "size": 46480,
+    "sha256": "f8156ab404e29b56d4d09b486ca2ceea3c402f8d13692ee257f49a9ae514a4e9",
+    "compression": "brotli"
+  },
   "7021cf00974c68a4fcd3146d58a048921cb1783544d6d3288d29accf8092c6ea": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/7021cf00974c68a4fcd3146d58a048921cb1783544d6d3288d29accf8092c6ea.br",
     "size": 251911,
@@ -1751,6 +1853,12 @@
     "sha256": "9d85fe128539477250d688ef9bc5ac5204f1f79d4a8b092969fed5a23769f72f",
     "compression": "brotli"
   },
+  "726f7e6f65ab8fbf8616327af65df9c7e954e2a0dc8bfcb317171df446ff3f68": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/726f7e6f65ab8fbf8616327af65df9c7e954e2a0dc8bfcb317171df446ff3f68.br",
+    "size": 8723,
+    "sha256": "2fa8905a75e89246e3f51f3ca595afbdbbc4cf2b1d4bf9a3c2fb760ceafe3661",
+    "compression": "brotli"
+  },
   "728f5ae8e98676f94f31e2f0f37274b503d8990405d07d8336c7a98c7995771f": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.7/728f5ae8e98676f94f31e2f0f37274b503d8990405d07d8336c7a98c7995771f.br",
     "size": 50238,
@@ -1763,6 +1871,12 @@
     "sha256": "2e7493758087c766dac3d41e10fae2a752bf69ddcb804b8d8757452c341ee3ca",
     "compression": "brotli"
   },
+  "74041f89767ac671a3412439dc384a69bb5f3198bce2fe3365e3e311a59a6777": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/74041f89767ac671a3412439dc384a69bb5f3198bce2fe3365e3e311a59a6777.bin",
+    "size": 16,
+    "sha256": "74041f89767ac671a3412439dc384a69bb5f3198bce2fe3365e3e311a59a6777",
+    "compression": "none"
+  },
   "7420ec8be66901eb4c34a525d87d68f819ff842df72a9324426d681278c8a98a": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.8/7420ec8be66901eb4c34a525d87d68f819ff842df72a9324426d681278c8a98a.br",
     "size": 155911,
@@ -1773,6 +1887,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/7436744f689441889a791959af8a8f38f38159668cc533b5e778bb930dd136b1.br",
     "size": 369161,
     "sha256": "590429efe6aba1cbfd5049715898a7e3448f797891f804ee4f67b91a27a7f5a9",
+    "compression": "brotli"
+  },
+  "74a400ff734e62800cfab901e2a118260168d59ec8092f87885976074c45aa8f": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/74a400ff734e62800cfab901e2a118260168d59ec8092f87885976074c45aa8f.br",
+    "size": 5275493,
+    "sha256": "034b773007da8e112ede264ab1f70be99e54e913445bb95de0c27938b9933057",
     "compression": "brotli"
   },
   "74d8d0ab5bbcb5ae726c3605dbcf456da665cfb201549ad366e1d82218e6b81b": {
@@ -2225,6 +2345,12 @@
     "sha256": "625a3c33d09cd794c874e51ff28ff2cf26d44c5dcd3988066632aa2a9fac40c3",
     "compression": "brotli"
   },
+  "93657178ec8bb7cfeb4731127e3f2f6620b993d93ea6aa98b1d2fe1970af3b00": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/93657178ec8bb7cfeb4731127e3f2f6620b993d93ea6aa98b1d2fe1970af3b00.br",
+    "size": 2439727,
+    "sha256": "912e8ea3498db899bbd10c681de61f703fe576b9d73ca66c913774df77cf1783",
+    "compression": "brotli"
+  },
   "93ae4d18a81a527bd2be9cf0d9b31f0a2ebbda39ed4dc5482e4659acb74798a5": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/93ae4d18a81a527bd2be9cf0d9b31f0a2ebbda39ed4dc5482e4659acb74798a5.br",
     "size": 98471,
@@ -2279,6 +2405,12 @@
     "sha256": "ffd4807032fe1d185c65f357b13d54a839fa91e320b1164f47b976685417b942",
     "compression": "brotli"
   },
+  "96d696b64698e8e2720081e3a1a228860a697db0c87dc5505b28ab7a304ad512": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/96d696b64698e8e2720081e3a1a228860a697db0c87dc5505b28ab7a304ad512.br",
+    "size": 228356,
+    "sha256": "ec928a2d43ade8f222e1175e38e566b039be7ac3786027d33e1ea7a4f313f431",
+    "compression": "brotli"
+  },
   "974ec64e1a93f4afd7baf3262a7f82646e719e65170d3c3c57ee55c1267ad200": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.2/974ec64e1a93f4afd7baf3262a7f82646e719e65170d3c3c57ee55c1267ad200.br",
     "size": 151725,
@@ -2321,6 +2453,12 @@
     "sha256": "9ca73106436b3d0a482263b33a70b4c05e45e792e17c5e9650cf10df1e38f47b",
     "compression": "brotli"
   },
+  "99158eac6d0fb2a0f6ac9400cf6dcdf774d052d51f88f3abce4f9dea1a6c9c6c": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/99158eac6d0fb2a0f6ac9400cf6dcdf774d052d51f88f3abce4f9dea1a6c9c6c.br",
+    "size": 813819,
+    "sha256": "7e51441284f5c27ade624545415f19d7f7a9b114b8da26ab917fb735ef0e7113",
+    "compression": "brotli"
+  },
   "9921a59d644a682c7c33c4da2faff52f41b79cb669b8e92d089aa1002940c2a5": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/9921a59d644a682c7c33c4da2faff52f41b79cb669b8e92d089aa1002940c2a5.br",
     "size": 55258,
@@ -2337,6 +2475,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/9a9604a9b39d5bdfc535bda5e944f33b417fba84e52030eaa05c9027e672240b.br",
     "size": 29459,
     "sha256": "25e43b305fcb21ffab8f49746d6bcabe8d695a26e024345e8721f424a0102733",
+    "compression": "brotli"
+  },
+  "9ab121d3350b7f6083f2284e5ccf18036ca9d6e5f314e11c6a1afcdcf629df4f": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/9ab121d3350b7f6083f2284e5ccf18036ca9d6e5f314e11c6a1afcdcf629df4f.br",
+    "size": 54857,
+    "sha256": "bf99bccc22d394431e3fa8599f59aa58afee5e8540d0758702e4fba6961aa0b1",
     "compression": "brotli"
   },
   "9adfd00ff6aa8ddcd729f77480535ba216fc54da473dcd3b08fdd85f5845e7ac": {
@@ -2465,6 +2609,12 @@
     "sha256": "111b11abc04883dcc40c2377eee52c7804899406f072c20116623d1a603b74cf",
     "compression": "brotli"
   },
+  "a12d6ce6bdfac2d2c2c8c1ffb2c4ed27b601e39168d7229e888035e99f108585": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/a12d6ce6bdfac2d2c2c8c1ffb2c4ed27b601e39168d7229e888035e99f108585.br",
+    "size": 3221,
+    "sha256": "1c6feca49e7d554f5df6f31eeba9dcb94f42f3cb88f4abc5bb8d9094951059b6",
+    "compression": "brotli"
+  },
   "a131e72344d8f235aa212fad8bd9be00ff9dc8594c5cd8b5356039d16dbb450a": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.1.0-beta.1/a131e72344d8f235aa212fad8bd9be00ff9dc8594c5cd8b5356039d16dbb450a.br",
     "size": 10122,
@@ -2505,6 +2655,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/a3049080080521d2c3661fc3f8d5afd25ec3e8ecf97345b53d3843499fce6f58.br",
     "size": 94909,
     "sha256": "99dc4b4b26dd3f03c06fc1d6e521183de65de9fa9f9e24b5ecf7a2fdf281e6cf",
+    "compression": "brotli"
+  },
+  "a3265fc6d2cb84f381d9a285e2ec50d6a8669ac0bcf299bb492591ec6a77a53c": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/a3265fc6d2cb84f381d9a285e2ec50d6a8669ac0bcf299bb492591ec6a77a53c.br",
+    "size": 88280312,
+    "sha256": "2cea479a0f2fd72ad10d55dc8575eb0d4b3d9dbce7a5946022b61c4aa7a0c3e2",
     "compression": "brotli"
   },
   "a3b05736c7a9bdcae7b4c23d200dac89d1ed9ae37efa39d44e24d3eb9e3ea845": {
@@ -2693,6 +2849,12 @@
     "sha256": "6fcfdadc0fb0504d34300990e7516c24eb5685b0e7f563d304d717ea0e78d808",
     "compression": "brotli"
   },
+  "ae12c012a44cfdb8af86d94f2e4856958310c655cf69279fcb8d96568a203b19": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/ae12c012a44cfdb8af86d94f2e4856958310c655cf69279fcb8d96568a203b19.br",
+    "size": 2566556,
+    "sha256": "33922277beed0c372b6e1476d28c42f9f3d97a408794b77435da6705486ee196",
+    "compression": "brotli"
+  },
   "aeb8678f0db7c33e238c1f6f8da094e564742e30dbff88d2a3dfff01e72e36b9": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.1/aeb8678f0db7c33e238c1f6f8da094e564742e30dbff88d2a3dfff01e72e36b9.br",
     "size": 1004827,
@@ -2709,6 +2871,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.8/b08660229f3983ba7c69e5011c67c12047ad2ae2e85b33ff274181cb24f961ad.br",
     "size": 63167,
     "sha256": "838ed5c0a676e8a83ac2b16dba7aa50aefa881b353f0776262be9ecf1cc2aae4",
+    "compression": "brotli"
+  },
+  "b0cf81087992b4938f847a9138b5e8969e8c99c2dbe02dda56e8e302ff1e2fe7": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/b0cf81087992b4938f847a9138b5e8969e8c99c2dbe02dda56e8e302ff1e2fe7.br",
+    "size": 587337,
+    "sha256": "77000ee7a4776f13238eb75585c78e4bafe3d51ac39edab5343a19a65d8528cd",
     "compression": "brotli"
   },
   "b0d2fb2648f0c13c5cb95999c42e5c9c8cf7af738f8cc9a5ae38cb83e0129e0f": {
@@ -2837,6 +3005,12 @@
     "sha256": "f29382675e4c4b6479997f483270e049b41cab25e61a0c8cf6a88594c0f8b861",
     "compression": "brotli"
   },
+  "ba36c2f5c799ec8ff1225fad24520da3f6696f1fb4a37fee6c8f88f2cf670d97": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/ba36c2f5c799ec8ff1225fad24520da3f6696f1fb4a37fee6c8f88f2cf670d97.br",
+    "size": 95686,
+    "sha256": "7c8b1316ce9c876521a58325e62a78a9f7f678f0dceaa5daa16a0d7bffc1e5b5",
+    "compression": "brotli"
+  },
   "ba5e60d3c9a635b819ccf181c7911bc45345b9a778e1d99452b56d61c9a603b1": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.1/ba5e60d3c9a635b819ccf181c7911bc45345b9a778e1d99452b56d61c9a603b1.br",
     "size": 4432105,
@@ -2865,6 +3039,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/bb1c5d581c762d85ff0464c49a4ee021fbe02483c684ed3e516eb8e331731084.br",
     "size": 13194,
     "sha256": "e8b57b805fa0dc9bc446d4eafc1fe0577325e57058b00d46ba814268fb09b7c6",
+    "compression": "brotli"
+  },
+  "bb9ff8b896e57273e1349ae7f80c425bf07333aecf86987efb1aa0c006e0e0c5": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/bb9ff8b896e57273e1349ae7f80c425bf07333aecf86987efb1aa0c006e0e0c5.br",
+    "size": 159337,
+    "sha256": "fd4eca8495209ad5d21aa55fba4b12834ebc872630b0f5399ea7323c5eaeebf1",
     "compression": "brotli"
   },
   "bbee0bc023266e57f25e34966d220ccc069ccf0242bcc320eeb283ddb9defcf4": {
@@ -3047,6 +3227,18 @@
     "sha256": "3781338bbe34c43e9a4c145206595b14e85553053502d875668dd3e6bd5f55cb",
     "compression": "brotli"
   },
+  "c6abde0bd7499571d807a66922e5910d25455d1afc9ee849be012ec8de00d44f": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/c6abde0bd7499571d807a66922e5910d25455d1afc9ee849be012ec8de00d44f.br",
+    "size": 256110,
+    "sha256": "e835088da7313fd5d84db15c5d3c7dd36213e08d72fe39cb7adb1d9cf559221c",
+    "compression": "brotli"
+  },
+  "c6fa497d6085b83bc4fcbe7c2027908ed9be2f873959957619a745debdd890b9": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/c6fa497d6085b83bc4fcbe7c2027908ed9be2f873959957619a745debdd890b9.bin",
+    "size": 2841024,
+    "sha256": "c6fa497d6085b83bc4fcbe7c2027908ed9be2f873959957619a745debdd890b9",
+    "compression": "none"
+  },
   "c741536a274c3296ccebc86723fb0452ca9dfd3dd0b75537a5bab6c5a7dc0544": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/c741536a274c3296ccebc86723fb0452ca9dfd3dd0b75537a5bab6c5a7dc0544.br",
     "size": 91582,
@@ -3197,6 +3389,12 @@
     "sha256": "3440e23a59c6697e980e3e7800c54518008e388c3ba6f8096ee0e9941984f6ba",
     "compression": "brotli"
   },
+  "cf2ec0717b9cdc34519fd15fed529574acc4edae1dbc010a6e714c3102ad517c": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/cf2ec0717b9cdc34519fd15fed529574acc4edae1dbc010a6e714c3102ad517c.br",
+    "size": 319999,
+    "sha256": "8ad85a1af332012f3f388d7bc181b02ce5b5d6be0fd578a766c900e897931fa9",
+    "compression": "brotli"
+  },
   "cf3e9b55903248f709bc190cc613fc3cf80794d31402e4ec60f58855632fb418": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.8/cf3e9b55903248f709bc190cc613fc3cf80794d31402e4ec60f58855632fb418.br",
     "size": 187277,
@@ -3207,6 +3405,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/cf85b19a92a8276f8baca0db9bbcd60735bad50768deb303d310e84d5f4fdd11.br",
     "size": 437729,
     "sha256": "e05552b579107439e2f115d3f3ece86aa2f2f73db423ba8656d1c1642e09567c",
+    "compression": "brotli"
+  },
+  "d018c6da1cbe217276ab68ad9de29166cb8555435495d6449205679781387abd": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/d018c6da1cbe217276ab68ad9de29166cb8555435495d6449205679781387abd.br",
+    "size": 1050678,
+    "sha256": "850367926ee3d24336b7c945a85d1b597cc309063b5b95f234a0024d38a761ec",
     "compression": "brotli"
   },
   "d05f80d1a0513f2d2159dc4253ad90048065f5a77bf69384e3f9362fe09ddcda": {
@@ -3317,6 +3521,12 @@
     "sha256": "ee5e0be1a4bb8cff5b6df17533acf4bb54c0492f66d9a8ae7736366d894256ea",
     "compression": "brotli"
   },
+  "d97a3bd8ac6931400f022036aadffff3d2ddf2c4e3e4b5b9f1747e377589dc67": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/d97a3bd8ac6931400f022036aadffff3d2ddf2c4e3e4b5b9f1747e377589dc67.bin",
+    "size": 12545120,
+    "sha256": "d97a3bd8ac6931400f022036aadffff3d2ddf2c4e3e4b5b9f1747e377589dc67",
+    "compression": "none"
+  },
   "d97e18ab8c4a2cda73a81dc47facb689de1db111e0c435ed48d0ed8b64f80355": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.4/d97e18ab8c4a2cda73a81dc47facb689de1db111e0c435ed48d0ed8b64f80355.br",
     "size": 19358624,
@@ -3333,6 +3543,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.3/da316f7d967115a20a3541a55b3f5214f5460d8738fd7d9c34f06eed9b8ac07e.br",
     "size": 1252043,
     "sha256": "e3477cfac61dd6916d99c79724a62ebd519df2c6349271fb4567a3c0df534b9d",
+    "compression": "brotli"
+  },
+  "da65d87d76246111a8c2afa968ebb2da0a1cf1c9d912c7406307504fc7d31f37": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/da65d87d76246111a8c2afa968ebb2da0a1cf1c9d912c7406307504fc7d31f37.br",
+    "size": 83093,
+    "sha256": "8c6753e2e0ebd4f989a6d20764abe8a258399fa7009ef7c6b406f587e82a6d3b",
     "compression": "brotli"
   },
   "da75ceebbef879968aaa721090df162e7a6fe1c7ba32f4bb5d05523385c53e8c": {
@@ -3381,6 +3597,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/dc9687bd8267643a770d28b4f14c192647d5bade34faf7fcad56b0213c04d9d4.br",
     "size": 351291,
     "sha256": "59336e138932b33300498f7ed8bcca26dc3c55623b8cd79ff0990e871cdc3dcb",
+    "compression": "brotli"
+  },
+  "dd2ce2a32a134b76bb323676a0d2b196a9655427e53838e80a69676c67960b9c": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/dd2ce2a32a134b76bb323676a0d2b196a9655427e53838e80a69676c67960b9c.br",
+    "size": 352222,
+    "sha256": "11aa09dd7059c622f4005db2751378575bc5c2c0a92ded9f4003c7ab53417255",
     "compression": "brotli"
   },
   "dd363516f288032b3684e51a32fa42be53109ad89056c78002aa3c6427469439": {
@@ -3435,6 +3657,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.1/e20a02731613bb243a448e51a969c3e3748d85b392173443058a59da359b1e0d.br",
     "size": 111915,
     "sha256": "45ce4c0b9c15ba13e9e7b1122a87d65485322cc7ee308327d6827bcbc92f3ad8",
+    "compression": "brotli"
+  },
+  "e2eb008ca094aa46cd0bc70b5837ddb594b5fcafe221fbf2b58b5aa4c0f30af7": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/e2eb008ca094aa46cd0bc70b5837ddb594b5fcafe221fbf2b58b5aa4c0f30af7.br",
+    "size": 57646,
+    "sha256": "e3557d081d82f8dcbafc64a5ae7ddcb7250f62f1ec8cbfed6273723c45160c7e",
     "compression": "brotli"
   },
   "e3462adbcf668b27469c2fbb3d042afd22faeb8f463325aed100c262dadb8566": {
@@ -3653,6 +3881,12 @@
     "sha256": "d0cd7f9791e5b6f8190c571c607b2b335305e27b70f55e2ac739568481e8ee38",
     "compression": "brotli"
   },
+  "f240cb9d2ff305b2ba1d628bfa900a9db7bdcd5684941e7eba5e0dc41907c9c3": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/f240cb9d2ff305b2ba1d628bfa900a9db7bdcd5684941e7eba5e0dc41907c9c3.br",
+    "size": 2532579,
+    "sha256": "b423c5820747d81c58936c566e90e7146579e783847abf283645915c83d65ebe",
+    "compression": "brotli"
+  },
   "f25f6035af8038622b30aec189cfcada1f0a80b6559cc878694405c79e139df3": {
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/f25f6035af8038622b30aec189cfcada1f0a80b6559cc878694405c79e139df3.br",
     "size": 2979,
@@ -3669,6 +3903,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-1.0.0/f3ace72331f57626936215a2a9432ca4f5d0c19d02fe12e60c8f6d6373991aa5.br",
     "size": 165965,
     "sha256": "93f0f88261d857d837e188b58a20a254c3e3118e02d7004396bc20b4608fd214",
+    "compression": "brotli"
+  },
+  "f3c6ea8eed3f3f5dd8791bf06e6ab2b577976d4e5870d70b04d903c4c6ec0a73": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/f3c6ea8eed3f3f5dd8791bf06e6ab2b577976d4e5870d70b04d903c4c6ec0a73.br",
+    "size": 345110193,
+    "sha256": "9a65332c76600543d95a50f860312172e8386db09859b3f900d9b684da6f7d33",
     "compression": "brotli"
   },
   "f438c8fc3ccc96e560f0550d0bcb22e08042a1ee3e2cf59b5e5c6b4e06f5765a": {
@@ -3729,6 +3969,12 @@
     "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.8.9/f7e63811f333c575632dcc23f7da5975fd39da682d068cbec17288f56b67901d.br",
     "size": 92679,
     "sha256": "02d0c41d18aa5e9ae79abaced4deed8b1b23c52b1a9bc3fc68d90016debf922f",
+    "compression": "brotli"
+  },
+  "f7fcb84760e513f025412559f17669faa6fe50b0a58354bf26b7433f88ef2b8f": {
+    "url": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.0/f7fcb84760e513f025412559f17669faa6fe50b0a58354bf26b7433f88ef2b8f.br",
+    "size": 1195536,
+    "sha256": "d9261f642b0ff13bc99edb6bd995f40c55f6c52d199ade4d3e759f83905d3fa1",
     "compression": "brotli"
   },
   "f80a46072449ea0a9034e3065e89d5f5ca193cbfe7a33f1f1657642eb430e9cb": {
