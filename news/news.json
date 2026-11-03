@@ -1,8 +1,27 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-01T11:42:54Z",
+  "updatedAt": "2026-11-03T07:03:07Z",
   "channel": "paulDizerGames",
   "posts": [
+    {
+      "id": 25,
+      "date": "2026-11-03T07:02:37Z",
+      "text": "Обновление лаунчера игры",
+      "entities": [],
+      "images": [
+        {
+          "url": "news/media/AQADpR9rG2rqUUt-.jpg",
+          "width": 1280,
+          "height": 560,
+          "messageId": 25
+        }
+      ],
+      "link": "https://t.me/paulDizerGames/25",
+      "edited": false,
+      "messageIds": [
+        25
+      ]
+    },
     {
       "id": 24,
       "date": "2026-11-01T11:42:35Z",
