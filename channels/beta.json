@@ -2,9 +2,9 @@
   "schema": 1,
   "channel": "beta",
   "version": "0.9.1",
-  "publishedAt": "2026-11-17T16:46:44.1761711+00:00",
+  "publishedAt": "2026-11-18T09:27:26.878895+00:00",
   "minLauncherVersion": "1.0.0",
   "manifestUrl": "https://github.com/DizerPaul/game-releases/releases/download/game-0.9.1/manifest.json",
-  "manifestSha256": "2fcf1454381870a886785c226ba67aecfb8f987b006f6456a869e1a0ee9fbc53",
+  "manifestSha256": "64e8a9ad7305c3e2935a1a4fbac94ee29919f67c70793974c4375186c8285d83",
   "manifestSize": 32839
 }
